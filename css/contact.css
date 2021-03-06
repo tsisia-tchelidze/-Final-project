@@ -1,0 +1,128 @@
+.fix-page-title {
+    color: #ffc107;
+}
+/*headred background */
+.contacnt-header-background {
+    background-image: url(../image/contactbackimage.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.contact-header-background-title {
+    font-size: 70px;
+    color: #fff;
+    font-family: "ArchyEDT-Bold", sans-serif;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.contact-header-title {
+    color: #fff;
+    font-family: "ArchyEDT-Bold", sans-serif;
+    font-size: 20px;
+    float: left;
+    align-items: center;
+}
+.arrow-top{
+    width: 10px;
+    height: 2px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+.arrow-botton {
+    width: 10px;
+    height: 2px;
+    margin-top: 5px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+}
+.arrow {
+    float: left;
+    margin: 5px;
+    align-items: center;
+}
+.contact-title {
+    color: #ffc107;
+}
+/* input-style */
+.input-title-wrapper  {
+    width: fit-content;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+.input-title {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "ArchyEDT-Bold", sans-serif;
+    padding-bottom: 20px;
+}
+.input-title-text {
+    color: #595959;
+    font-size: 25px;
+}
+/* input wrapper */
+.main-contact-form-wrapper{
+    width: fit-content;
+    width: 1200px;
+    margin: 0 auto;
+}
+.input-blok {
+     background-color: #fff;
+     width: 400px;
+     height: 50px;'
+     font-size: 20px;
+}
+.input-blok-lastname {
+    margin-left: 50px;
+}
+/* second-wrapper-input */
+.second-wrapper-input {
+    margin-top: 50px;
+}
+.submit {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #f7bd00;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    transition: transform .5s;
+}
+.submit:hover{
+    color: #fff;
+    font-weight: bolder;
+}
+
+.first-contact-wrapper {
+    float: left;
+    margin-right: 70px;
+}
+/* info-style */
+.info-title {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+}
+
+.info-contact-text {
+    margin-bottom: 50px;
+}
+.info-text {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #595959;
+}
+.contacnt-footer {
+    margin-top: 10px;
+}
+
+/* .contact-header-title::after {
+    content: url(../image/chevron.svg.xml);
+    background-color: #fff;
+    width: 22px;
+    height: 20px;
+} */

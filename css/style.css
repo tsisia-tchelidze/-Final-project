@@ -1,16 +1,31 @@
-body {
-    height: 18000px;
+/* all content style */
+.text {
+    line-height: 25px;
+    color: #595959;
 }
 
+/* header */
 header {
-    max-width: 100%; 
+    max-width: 100%;
     background-color: #fff2d4;
     margin-top: 10px;
 }
-.header-manu-section {
+/* burger bar */
+.burger-bar-wrapper {
+    
+}
+.burger-bar {
+ 
+    font-size: 30px;
+    color: #ffffff;
+}
+.index-header {
     background-image: url(../image/cows.jpg);
     background-size: cover;
     height: 740px;
+}
+.header-manu-section {
+    position: relative;
 }
 
 .main-headder-wrapper {
@@ -20,47 +35,514 @@ header {
     display: flex;
     height: 100px;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
 }
 
 .header-info-wrapper {
     display: flex;
     align-items: center;
-    
 }
 
 header h3 {
-    max-width: 250px;
+    max-width: 300px;
     display: inline-block;
+    transition: transform .5s;
 }
 
 header p {
-    max-width: 100px;
+    max-width: 150px;
+    transition: transform .5s;
+}
+.header-information-hover:hover{
+    font-size: 20px;
 }
 
 .header-icon {
     font-size: 50px;
-    color: #929292;
+    color: #242424;
     display: inline-block;
     margin-right: 15px;
 }
 
+.manu-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 50%;
+    width: 100%;
+    margin: 0 -5px;
+    background-color: #3f3025;
+}
+
 .manu-wrapper {
     margin: 0 auto;
-    max-width: 1190px;
+    max-width: 1200px;
     height: 65px;
-    background-color: #42273A;
-    padding: 15px;    
+    background-color: #362920;
     position: sticky;
+    padding: 5px;
+    z-index: 10;
+}
+
+.border-box {
+    position: relative;
+    border-style: dashed;
+    border-color: #BFB8B8;
+    border-width: 1px;
+    display: flex;
+    flex: 1;
+    height: 55px;
+    z-index: 10;
 }
 
 .manu-title-wrapper {
     display: flex;
-    justify-content: space-around;
-   
+    flex: 1;
+    z-index: 15;
 }
+
 .manu-title {
     font-size: 25px;
     color: #ffffff;
-    
+    position: relative;
+    padding: 5px 35px;
+    font-family: "ArchyEDT-Bold", sans-serif;
+    display: flex;
+    align-items: center;
+}
+.manu-title-hover{
+    font-size: 25px;
+    color: #ffffff;
+    position: relative;
+    font-family: "ArchyEDT-Bold", sans-serif;
+    display: flex;
+    align-items: center;
+}
+/*  manu titile hover*/
+.manu-title-hover:hover{
+    color: #ffc107;
+}
+/* hover */
+
+
+.manu-title::after {
+content: '';
+/* display: block; */
+position: absolute;
+height: 35px;
+right: 0%;
+border-right: 1px solid #271e17;
+box-shadow: 1px -2px #292828;
+}
+
+.search-icon {
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    padding-right: 35px;
+    padding-top: 10px;
+}
+ /* background-title */
+ .header-manu-section {
+     position: relative;
+ }
+ .backgorun-title-wrapper {
+    position: absolute;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ .backgorun-title {
+    width: 950px;
+     font-size: 70px;
+     max-width: 1100px;
+     color: #ffffff;
+     text-align: center;
+}
+
+.view-all-wrapper {
+    width: fit-content;
+    width: 200px;
+    height: 50px;
+    border: 1px;
+    border-radius:10px;
+    margin-left: 350px;
+    margin-top: 200px;
+    background-color: #ffffff;
+   display: block;
+   background: linear-gradient(to right,#ffc107 50%, white 50%);
+   background-size: 200% 100%;
+   background-position: right bottom;
+   transition: all .5s ease-out;
+}
+
+.view-all {
+   padding-top: 10px;
+   font-size: 25px;
+   font-weight: bold;
+   text-align: center;
+   color: black;
+   transition: all .6s ease-out;
+   display: block;
+ }
+ .view-all:hover {
+    color: white;
+  }
+ .view-all-wrapper:hover {
+    background-position: left bottom;
+  }
+
+/* welcome-section */
+.welcome-background {
+    width: 100%;
+    height: 470px;
+    background-color: #ffc107;
+    position: relative;
+}
+.welcome-section-title {
+    line-height: 50px;
+    font-weight: 700;
+    position: absolute;
+    font-size: 50px;
+    color: #242424;
+    top:15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.welcome-section-text {
+    position: absolute;
+    font-size: 20px;
+    color: #242424;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+/* about-section */
+.about-main-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 290px;
+}
+.about-blok {
+    width: 300px;
+    height: 350px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    overflow: hidden;
+}
+.about-blok-image {
+    width: 100%;
+    padding: 0 7px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: transform .5s;
+    overflow: hidden;
+
+}
+.about-blok-image:hover {
+    transform: scale(1.2)
+}
+.about-blok-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.about-blok-text {
+    font-size: 20px;
+    text-align: center;
+    color: #595959;
+}
+/* history-wrapper */
+.history-section {
+    background-image: url(../image/backimage.jpg);
+    background-size: cover;
+    padding: 200px;
+}
+.child-history-section-wrapper {
+    max-width: fit-content;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-history-wrapper {
+    position: relative;
+    position: static;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.history-wrapper {
+    position:absolute
+    width: fit-content;
+    max-width: 500px;
+    padding-top:  100px;
+    text-align: left;
+}
+.history-title {
+    font-size: 40px;
+    font-family: "ArchyEDT-Bold", sans-serif;
+    max-width: 600px;
+    width: fit-content;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.history-text {
+color: #595959;
+}
+/* history-icon */
+.history-icon-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.icon::before {
+    position: absolute;
+    font-family: Flaticon;
+    font-style: normal;
+    font-size: 60px;
+    color: #f7bd00;
+}
+.modern-dairy::before {
+    content: '\f11a';
+}
+
+.natural-organic::before {
+    content: '\f118';
+}
+.best-product::before {
+    content: '\f119';
+}
+.awarded-farm::before {
+    content: '\f117';
+}
+
+.icon-discriprion{
+    margin-top: 70px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 30px;
+}
+/* millking section */
+.millking-section {
+    background-image: url(../image/handandmilk.jpg);
+    padding: 100px 100px 70px;
+    background-size: cover;
+}
+
+.millking-wrapper {
+    width: fit-content;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.milking-wrapper-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 55px;
+    margin-bottom: 25px;
+}
+.milking-wrapper-text {
+    width: 500px;
+    font-size: 20px;
+    color: #fff2d4;
+}
+/* offer-section */
+.offer-section {
+    background-image: url(../image/backimage2.jpg);
+    background-size: cover;
+    height:740px;
+    padding: 50px;
+}
+.offer-text-wrapper{
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.offer-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: "ArchyEDT-Bold", sans-serif;
+
+}
+
+ /* offer image  */
+ .main-offer-image-wrapper {
+     max-width: 1100px;
+     position: relative;
+     margin: 0 auto;
+     padding: 50px;
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 50px;
+ }
+ .child-offer-wrapper {
+     flex-direction: column;
+     justify-content: space-between;
+     width:fit-content;
+ }
+
+ .offer-image-blok{
+    border: 2px dashed #cdcdcd;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 5px;
+ }
+
+ .offer-blok-image {
+     border-radius: 100%;
+     position: absolute;
+     height: 185px;
+     width: 185px;
+     transition: transform .5s;
+}
+.offer-blok-image:hover {
+    transform: rotate(50deg);
+}
+
+ .offer-blok-text {
+     text-align: center;
+ }
+.offer-blok-title{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    font-family: "ArchyEDT-Bold", sans-serif;
+}
+.offer-text {
+    font-size: 15px;
+}
+
+/* view-all-products-wrapper */
+.view-all-products-wrapper {
+    width: fit-content;
+    background-color: #f7bd00;
+    border-radius: 10px;
+    padding: 20px 50px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background: linear-gradient(to right, black 50%, #f7bd00 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+.view-all-products-wrapper:hover{
+        background-position: left bottom; 
+}
+.view-all-text {
+    font-size: 25px;
+    font-weight: bold;
+    transition: all .6s ease-out;
+    display: block;
+}
+.view-all-text:hover{
+    color: white;  
+}
+/* meet-farm-section */
+.meet-farm-section {
+    background-image: url(../image/backimage3.jpg);
+    background-size: cover;
+    height: 500px;
+    padding: 50px;
+}
+.meet-farm-title{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.farmer-info-section {
+    width: fit-content;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.farmer-image, .tsisa {
+    border-radius: 30%;
+    width: 250px;
+    height: 250px;
+}
+.farmer-bio {
+    width: 500px;
+    margin:50px 90px;
+}
+.farmer-name {
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+/* home-footer */
+.home-footer {
+    position: relative;
+    z-index: 2;
+}
+.home-footer::after {
+    content: url(../image/backimage4.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    z-index: 12;
+}
+.main-home-footer-wrapper {
+    width: 1100px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.home-footer-blok {
+    width: fit-content;
+    position: relative;
+}
+
+.footrer-addres {
+    max-width: 250px;
+    font-size: 20px;
+}
+/* footer-line */
+.home-footer-line {
+    margin: 0 auto;
+    width: 1000px;
+    height: 1px;
+    background-color: #595959;
+}
+.footer-navigation {
+    font-size: 20px;
+    line-height: 25px;
+}
+.secend-contact-wrapper {
+    margin-left: 30px;
 }
