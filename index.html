@@ -18,6 +18,11 @@
     <link rel="stylesheet" href="css/responsive.css">
     <script src="https://kit.fontawesome.com/3deec821c6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.web-fonts.ge/fonts/archyedt-bold/css/archyedt-bold.min.css">
+    <script src="jquery.min.js"></script>
+    <script src="slick-slider/slick.min.js"></script>
+    <link rel="stylesheet" href="slick-slider/slick-theme.css">
+    <link rel="stylesheet" href="slick-slider/slick.css">
+    <script src="slik-slider-js/slider.js"></script>
     <title> home page</title>
 </head>
 <body>
@@ -41,59 +46,87 @@
                     </p> </a>.
         </div>
     </header>
-    <section class="index-header header-manu-section">
-        <div class="manu-wrapper">
-            <div class="border-box">
-                <ul class="manu-title-wrapper">
-                    <dir>
-                        <i class="burgerbar fas fa-bars"></i>
-                    </dir>
-                    <li class="manu-title">
-                        <a class="manu-title-hover" href="index.html">
-                        მენიუ
-                        </a>
-                    </li>
-                    <li class="manu-title">
-                        <a class="manu-title-hover" href="#">
-                        ჩვენ შესახებ
-                        </a>
-                    </li>
-                    <li class="manu-title">
-                        <a class="manu-title-hover" href="#">
-                        პროდუქტი
-                        </a>
-                    </li>
-                    <li class="manu-title">
-                        <a class="manu-title-hover" href="#">
-                        ბლოგი
-                        </a>
-                    </li>
-                    <li class="manu-title">
-                        <a class="manu-title-hover" href="#">
-                        რეცეპტები
-                        </a>
-                    </li>
-                    <li class="manu-title">
-                        <a class="manu-title-hover" href="contact.html">
-                        კონტაქტი
-                        </a>
-                    </li>
-                </ul>
-                <span>
-                    <a class="manu-title-hover" href="#">
-                        <i class="search-icon fas fa-search"></i>
+    <div class="manu-wrapper index-header-wrapper">
+        <div class="border-box">
+            <ul class="manu-title-wrapper">
+                <dir class="burger-bar ">
+                    <i class="burgerbar fas fa-bars"></i>
+                </dir>
+                <li class="manu-title">
+                    <a class="manu-title-hover" href="index.html">
+                    მენიუ
                     </a>
-                </span>
-            </div>
+                </li>
+                <li class="manu-title">
+                    <a class="manu-title-hover" href="#">
+                    ჩვენ შესახებ
+                    </a>
+                </li>
+                <li class="manu-title">
+                    <a class="manu-title-hover" href="#">
+                    პროდუქტი
+                    </a>
+                </li>
+                <li class="manu-title">
+                    <a class="manu-title-hover" href="#">
+                    ბლოგი
+                    </a>
+                </li>
+                <li class="manu-title">
+                    <a class="manu-title-hover" href="#">
+                    რეცეპტები
+                    </a>
+                </li>
+                <li class="manu-title">
+                    <a class="manu-title-hover" href="contact.html">
+                    კონტაქტი
+                    </a>
+                </li>
+            </ul>
+            <span>
+                <a class="manu-title-hover" href="#">
+                    <i class="search-icon fas fa-search"></i>
+                </a>
+            </span>
         </div>
-        <div class="backgorun-title-wrapper">
-            <h2 class="backgorun-title">
-                 რძე და ჯანსაღი პროდუქტი
-            </h2>
-            <div class="view-all-wrapper">
-                   <h2 class="view-all">
-                    მეტის ნახვა
+    </div>
+    <section>
+        <div id="slider">
+            <div class="index-header header-manu-section">
+                <div class="backgorun-title-wrapper">
+                    <h2 class="backgorun-title">
+                        რძე და ჯანსაღი პროდუქტი
                     </h2>
+                    <div class="view-all-wrapper">
+                        <h2 class="view-all">
+                            მეტის ნახვა
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="second-header-image  index-header header-manu-section">
+                <div class="backgorun-title-wrapper">
+                    <h2 class="backgorun-title">
+                        რძე და ჯანსაღი პროდუქტი
+                    </h2>
+                    <div class="view-all-wrapper">
+                        <h2 class="view-all">
+                            მეტის ნახვა
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="third-header-image  index-header header-manu-section">
+                <div class="backgorun-title-wrapper">
+                    <h2 class="backgorun-title">
+                     ნატურალური პროდუქტი
+                    </h2>
+                    <div class="view-all-wrapper">
+                        <h2 class="view-all">
+                            მეტის ნახვა
+                        </h2>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -313,31 +346,40 @@
                  </h3>
                  <h2 class="footrer-addres">
                     Call Us
-                    1800 456 7890
+                    577 31 02 36
                  </h2>
             </div>
             <div class="home-footer-blok">
-              <ul class="footer-navigation">
-                  <li>
-                      home
-                  </li>
-                  <li>
-                      about us
-                  </li>
-                  <li>
-                      contact
-                  </li>
-                  <li>
-                    products
-                  </li>
-              </ul>
-            </div>
+                <ul class="footer-navigation">
+                    <li>
+                        <a href="#">
+                        home
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        about us
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        contact
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                      products
+                      </a>
+                    </li>
+                </ul>
+              </div>
             <div class="home-footer-blok">
                 <h2>
                     Get latest updates and offers.
                 </h2>
-                <form class="second-wrapper-input">
-                <input class="input-blok" type="email" id="emails" name="emails"placeholder="Enter your email">
+                <form class="footer-input second-wrapper-input">
+                    <input class="input-]blok" type="email" id="emails" name="emails"placeholder="Enter your email">
+                    <input type="submit" value="Submit">
                 </form>
             </div>
         </div>

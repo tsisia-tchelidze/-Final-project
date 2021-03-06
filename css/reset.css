@@ -52,3 +52,6 @@ a {
 .clear {
 	clear: both;
 }
+a {
+    color: inherit;
+}
