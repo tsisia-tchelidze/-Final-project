@@ -1,0 +1,19 @@
+
+@keyframes welcome{
+    0%{
+    	width:0;
+    	color: yellow;
+        border-right: .10em solid rgb(107, 28, 28);
+        white-space: nowrap;
+        overflow: hidden;
+        font-weight: bold; opacity: 0;
+    }
+    50%{
+        width: 600px;
+    	color: black;
+        white-space: nowrap;
+        overflow: hidden;
+        font-weight: bold;
+        opacity: 3;
+    }
+}

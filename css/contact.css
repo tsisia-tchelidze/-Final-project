@@ -93,7 +93,9 @@
 .submit:hover{
     color: #fff;
     font-weight: bolder;
+    box-shadow: 0 0 50px 0 #f7bd00;
 }
+
 
 .first-contact-wrapper {
     float: left;
