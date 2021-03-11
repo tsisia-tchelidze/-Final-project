@@ -218,6 +218,8 @@ box-shadow: 1px -2px #292828;
      width: fit-content;
      color: #ffffff;
      text-align: center;
+    font-family: "KA_LORTKIPANIDZE", sans-serif;
+    font-weight: bolder;
      
 }
 
@@ -228,7 +230,7 @@ box-shadow: 1px -2px #292828;
     border: 1px;
     align-items: center;
     border-radius:10px;
-    margin-left: 130px;
+    margin-left: 250px;
     margin-top: 120px;
     background-color: #ffffff;
    display: block;
@@ -353,7 +355,7 @@ box-shadow: 1px -2px #292828;
 }
 
 .history-wrapper {
-    position:absolute
+    position:absolute;
     width: fit-content;
     max-width: 500px;
     padding-top:  100px;
@@ -366,6 +368,10 @@ box-shadow: 1px -2px #292828;
     text-align: center;
     font-weight: bold;
     padding-bottom: 20px;
+}
+.and {
+    font-family: "KA_LORTKIPANIDZE", sans-serif;
+    font-size: 60px;
 }
 .history-text {
 color: #595959;
@@ -537,11 +543,13 @@ color: #595959;
     padding: 50px;
 }
 .meet-farm-title{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     padding: 20px;
     text-align: center;
     margin-bottom: 50px;
+    
+    
 }
 .farmer-info-section {
     width: fit-content;
