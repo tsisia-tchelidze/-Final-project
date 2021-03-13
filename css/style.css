@@ -103,19 +103,42 @@ header h3 {
 }
 
 .header-information-hover{
-    max-width: 200px;
+    max-width: 300px;
     color: #aaa;
+    font-weight: bold;
+    line-height: 20px;
+    font-family: 'Homemade Apple', cursive;
     transition: transform .5s;
 }
 .header-information-hover:hover{
-    font-size: 20px;
+    color: #f7bd00;
 }
 
 .header-icon {
     font-size: 50px;
-    color: #f7bd00;
+    color:floralwhite;
     display: inline-block;
     margin-right: 15px;
+}
+.header-icon {
+    font-size: 28px;
+    background-color: #f7bd00;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px !important;
+    border: 50%;
+    transition: 0,5s linear;
+    color: #fff;
+    cursor: pointer;
+}
+.header-icon:hover{
+    font-size: 40px;
+    background: none;
+    color: #f7bd00;
+    transform: scale(1.6);
+
 }
 
 .manu-wrapper::before {

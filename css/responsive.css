@@ -2,3 +2,39 @@
     .manu-title {
         display: none;
     }
+
+    .burger-bar {
+        display: block;
+    }
+    .header-information-hover {
+        display: none;
+    }
+    #slider {
+        width: 100%;
+    }
+    .backgorun-title{
+        font-size: 30px;
+
+    }
+    .view-all-wrapper {
+        max-width: 150px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .view-all {
+        font-size: 15px;
+    }
+    .welcome-section-title title {
+        font-size: 30px;
+        max-width: 700px;
+    
+    }
+    .welcome-background {
+        display: none;
+    }
+    .offer-text-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
