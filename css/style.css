@@ -287,6 +287,7 @@ box-shadow: 1px -2px #292828;
     background-color: #ffc107;
     position: relative;
 }
+
 .welcome-section-title {
     line-height: 50px;
     font-weight: 700;
@@ -303,6 +304,7 @@ box-shadow: 1px -2px #292828;
 .welcome-section-text {
     position: absolute;
     max-width: 900px;
+    margin-bottom: 250;
     max-width: fit-content;
     line-height: 20px;
     font-size: 15px;
@@ -360,6 +362,9 @@ box-shadow: 1px -2px #292828;
     background-image: url(../image/backimage.jpg);
     background-size: cover;
     padding: 200px;
+}
+.histyry-image-wrapper {
+    margin-right: 200px;
 }
 .child-history-section-wrapper {
     max-width: fit-content;
