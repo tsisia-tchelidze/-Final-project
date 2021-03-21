@@ -1,0 +1,25 @@
+@media (max-width:1140px) {
+.input-title-text {
+width: 400px;
+}
+.input-title-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.input-blok {
+    width: 200px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+}
+.input-blok {
+    margin-left: 0;
+    margin-top: 15px;
+}
+.textinput{
+    width: 300px;
+}
+.home-footer {
+    display: none;
+}
