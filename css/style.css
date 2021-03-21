@@ -15,10 +15,7 @@ header {
     margin-top: 10px;
 }
 /* burger bar */
-.burger-bar {
-    cursor: pointer;
-    
-}
+
 .burgerbar {
     font-size: 30px;
     color: #ffffff;
@@ -663,3 +660,7 @@ color: #595959;
  .manu-title-burger {
      margin-top: 10px;
  }
+ .burger-bar {
+    cursor: pointer;
+    display: none;
+}
