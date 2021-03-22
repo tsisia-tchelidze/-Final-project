@@ -31,14 +31,17 @@
         margin-top: -100px;
         font-size: 30px;
         max-width: 700px;
-    }
+}
+
 .welcome-section-title {
     font-size: 20px;
     animation: welcome-second 5s infinite;
 }
+
 .welcome-section-text {
     display: none;
 }
+
 .history-section {
     height: 1200px;
 }
@@ -47,23 +50,27 @@
     margin-left: -200px;
     margin-top: -200px;
 }
+
 .history-title {
     font-size: 30px;
     margin-bottom: 30px;
 }
+
 .history-text {
     font-size: 10px;
     width: 300px;
 }
+
 .history-image-wrapper {
   display: none;
 }
+
 .history-icon-wrapper {
     display: flex;
     flex-direction: column;
     margin-bottom: 70px;
-
 }
+
 .child-history-section-wrapper {
     height: 2000px;
     display: flex;
@@ -73,34 +80,44 @@
 .about-blok {
     width: 100%;
 }
+
 .first-blok {
     margin-top: 200px;
 }
+
 .about-main-wrapper {
     flex-direction: column;
      position: relative;
      width: 400px;
      padding-top: 150px;
 }
+
 .about-blok {
     position: relative;
     margin: 0 auto;
     margin-bottom: 50px;
- }
- .millking-section{
+}
+
+.millking-section{
     display: none;
- }
- .main-offer-image-wrapper {
+}
+
+.main-offer-image-wrapper {
     display: flex;
     flex-wrap: wrap;
- }
- .meet-farm-section {
+}
+
+.meet-farm-section {
      display: none;
- }
+}
+
 .footer-input-wrapper{
     display: none;
 }
+
 .main-home-footer-wrapper {
     display: flex;
     flex-direction: column;
+}
+
 }
