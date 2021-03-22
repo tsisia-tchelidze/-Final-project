@@ -1,4 +1,13 @@
 @media (max-width:1140px) {
+.manu-title {
+     display: none;
+ }
+.burger-bar {
+    display: block;
+}
+.header-information-hover {
+    display: none;
+}
 .input-title-text {
 width: 400px;
 }
@@ -22,4 +31,11 @@ width: 400px;
 }
 .home-footer {
     display: none;
+}
+.footer-navigation {
+    display: none;
+}
+.home-footer {
+    display: flex;
+    flex-direction: column;
 }

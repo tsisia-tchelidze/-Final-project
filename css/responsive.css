@@ -98,3 +98,10 @@
      display: none;
  }
 }
+.footer-input-wrapper{
+    display: none;
+}
+.main-home-footer-wrapper {
+    display: flex;
+    flex-direction: column;
+}
